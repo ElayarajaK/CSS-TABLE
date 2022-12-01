@@ -1,0 +1,12 @@
+
+div{
+    margin: 2%; padding: 2%; 
+    border: 3px solid rgb(63, 84, 63); 
+    width: 30%;
+}
+
+.student{
+    color: #4287f5;
+    width: 30%;
+    border: 3px solid #4287f5;
+}

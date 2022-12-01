@@ -1,0 +1,36 @@
+ /*** universel selctors*****/
+*{
+    font-size:xx-large;
+    font-family: cursive;
+    background-color: rgb(78, 21, 21);
+    color: beige;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #bc1d1d;
+    color: cyan;
+}
+ /*** tag selctors*****/
+header{
+    width: 100%;
+    height: 300px;
+    background-color: #7fa82f;
+}
+ /*** class selctors*****/
+.container{
+    margin: 2%;
+    padding: 2%;
+    border: 20px solid #f0f809;
+    width: 30%;
+
+}
+ /*** id selctors*****/
+#unique{
+    background-color: blueviolet;
+}
+ /*** id selctors*****/
+#first{
+    background-color: yellowgreen;
+}
