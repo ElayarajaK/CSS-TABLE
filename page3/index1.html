@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <style>
+        .one{
+            width: 30%;
+            background-color: slateblue;
+            color: azure;
+            margin: 2%;
+            padding: 2%;
+            border-radius: 3px;
+            position: relative;
+        }
+        .five{
+            width: 30%;
+            background-color: slateblue;
+            color: azure;
+            margin: 2%;
+            padding: 2%;
+            border-radius: 3px;
+            position: static    ;
+        }
+
+        .two{
+            width: 5%;
+            height: 200px;
+            background-color: slateblue;
+            color: azure;
+            margin: 2%;
+            padding: 2%;
+            border-radius: 3px;
+           background-image: url(../img/n1.jpg);
+           position: absolute;
+           top: 0px;
+           left: 300px;
+           z-index: 1;
+          
+        }
+
+        .three{
+            width: 30%;
+            background-color: slateblue;
+            color: azure;
+            margin: 2%;
+            padding: 2%;
+            border-radius: 3px;
+            position: static;
+            top: 500px;
+            left: 500px;
+        }
+        .four{
+            width: 5%;
+            height: 200px;
+            background-color: slateblue;
+            color: azure;
+            margin: 2%;
+            padding: 2%;
+            border-radius: 3px;
+           background-image: linear-gradient(360deg,red,green,yellow,pink);
+           position: absolute;
+            
+            top: 10px;
+            left: 340px;
+            z-index: 2;
+        }
+
+     
+        .nav-bar{
+            width: 1400px;
+            text-align: left;
+            height: 80px;
+            background-color: #682121;
+            border-radius: 10px;
+            position: fixed;
+            top: 1px;
+            z-index: 3;
+            
+        }
+        nav ul{
+            list-style-type: none;
+            display: block;
+        }
+        nav ul li{
+            width: 10%;
+            display: inline-block;
+            padding: 2%;
+            
+        }
+        nav ul li a{
+            font-size:x-large;
+            padding: 10%;
+            margin: 0%;
+            color: rgb(167, 221, 221);
+            text-decoration: none;
+            
+        
+    }
+    nav ul li:hover{
+        background-color: chocolate;
+        color: #682121;
+    }
+
+    .student1{
+        /*list-style-type: square;*/
+        border: 2px solid;
+        list-style-position: inside;
+       /* list-style-image: url(../img/li.jpg);*/
+    }
+    .student1 li{
+        /*list-style-type: square;*/
+        border: 2px solid;
+        
+    }
+
+    .sti-nav-bar{
+        width: 1400px;
+            text-align: left;
+            height: 80px;
+            background-color: #6d1acb;
+            color: #682121;
+            border-radius: 10px;
+           
+            top: 1px;
+           position: sticky;
+           
+          
+    }
+    
+
+
+        
+    </style>
+    <body>
+
+        <!--
+            Position
+            1.static
+            2.relative
+            3.absolute
+            4.fixed
+            5.sticky
+        -->
+        <header>
+            <nav class="nav-bar">
+                <ul>
+                    <li class="logo"><a href="#Home"><img src="../img/li.jpg"/></a></li>
+                    <li><a href="../H.html"> About us</a></li>
+                    <li><a href="../G.html">Contact</a></li>
+                    <li><a href="../F.html">Products</a></li>
+                    <li><a href="../E.html">Details</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div class="four">
+            <p>Main Content</p>
+        </div>       
+    
+
+    <div class="two">
+        <h1>Side Content</h1>
+    </div>
+    <div class="one">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore natus est excepturi minima perspiciatis laudantium magnam. Tempora commodi similique rerum! Reiciendis cupiditate, laborum explicabo recusandae distinctio culpa id facere tempora!</p>
+    </div>
+
+
+    <div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+    <div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+
+    <section>
+        <nav class="sti-nav-bar">
+            <ul>
+                <li class="logo"><a href="#Home"><img src="../img/li.jpg"/></a></li>
+                <li><a href="../H.html"> About us</a></li>
+                <li><a href="../G.html">Contact</a></li>
+                <li><a href="../F.html">Products</a></li>
+                <li><a href="../E.html">Details</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="five" style="position: sticky; top: 10px; background-color: yellow;">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+    <div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+    <div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+    <div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div><div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+    <div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+    <div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+    <div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+    <div class="five">
+        <p>Lorem ipsum dolor sit,
+             amet consectetur adipisicing elit. 
+             Esse ea, adipisci hic facere ullam iste necessitatibus dolor voluptatum asperiores cupiditate et dolores itaque reprehenderit 
+            quo distinctio vero labore nemo suscipit.</p>
+    </div>
+
+
+
+   
+
+    </body>
+</html>
