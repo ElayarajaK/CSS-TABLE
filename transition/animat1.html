@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <style>
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .box{
+            position: absolute;
+            border-radius: 50%;
+            width: 15%;
+            height: auto;
+            margin: 2%;
+            padding: 3%;
+            border: 5px solid;
+            background-color: brown;
+           animation-name: action;
+           animation-duration: 10s;
+           animation-delay: 2s;
+           animation-iteration-count: infinite; 
+           
+           animation-timing-function: ease-in-out;
+           animation-fill-mode: backwards;
+           
+
+
+           
+        }
+        .box:hover{
+            animation-play-state: paused;
+        }
+
+        @keyframes action {
+            0%{
+                top:0px;
+                background-color: blue;
+                left: 0px;
+                transform: rotate(0deg);
+            }
+            10%{
+                top: 0px;
+                background-color: green;
+                left: 100px;
+                transform: rotate(30deg);
+            }
+            20%{
+                top:0px;
+                background-color: red;
+                left:600px;
+                transform: rotate(60deg);
+            }
+            30%{
+                top:0px;
+                background-color: brown;
+                left: 800px;
+                transform: rotate(90deg);
+            }
+            50%{
+                top:0px;
+                background-color: brown;
+                left: 1000px;
+                transform: rotate(180deg);
+            }
+            60%{
+                top:0px;
+                background-color: violet;
+                left: 800px;
+                transform: rotate(250deg);
+            }
+            80%{
+                top:0px;
+                background-color: rgb(222, 60, 168);
+                left: 500px;
+                transform: rotate(300deg);
+            }
+            100%{
+                top:0px;
+                background-color: tomato;
+                left: 0px;
+                transform: rotate(360deg);
+            }
+            
+          
+            
+        }
+
+    </style>
+    <body>
+
+        <div class="box">
+            <p>
+                Lorem ipsum dolor, 
+                sit amet consectetur adipisicing elit.
+                 Dolore eos deserunt iure temporibus,
+                  modi rem iste excepturi aliquam,
+                   perferendis sequi et adipisci odio amet officia fuga suscipit mollitia numquam alias?
+            </p>
+
+        </div>
+    </body>
+
+</html>
